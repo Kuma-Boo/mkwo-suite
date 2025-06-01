@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=6 format=3 uid="uid://gr6irkvel1jm"]
+
+[ext_resource type="Resource" uid="uid://secfet6yh2ek" path="res://resource/character/npc/goomba.tres" id="1_4u2kh"]
+[ext_resource type="Resource" uid="uid://byuugdjoigje1" path="res://resource/character/koopa troopa.tres" id="1_kgsnp"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="2_h0q5d"]
+[ext_resource type="Resource" uid="uid://bnw62rv5i56mf" path="res://resource/character/shy guy.tres" id="2_rt2tp"]
+[ext_resource type="Resource" uid="uid://c4lydwaj7ws8r" path="res://resource/character/npc/hammer bro.tres" id="3_bvi3h"]
+
+[resource]
+script = ExtResource("2_h0q5d")
+characters = Array[Resource]([ExtResource("1_4u2kh"), ExtResource("1_kgsnp"), ExtResource("3_bvi3h"), ExtResource("2_rt2tp")])
+Points = 10
+Name = "bowser's minions"

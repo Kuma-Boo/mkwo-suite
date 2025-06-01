@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=4 format=3 uid="uid://crosqye8obaub"]
+
+[ext_resource type="Resource" uid="uid://wvs7dtuu73ps" path="res://resource/character/yoshi.tres" id="1_k30mq"]
+[ext_resource type="Resource" uid="uid://co8taoroxhbcn" path="res://resource/character/birdo.tres" id="2_4pb8p"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="6_kx2er"]
+
+[resource]
+script = ExtResource("6_kx2er")
+characters = Array[Resource]([ExtResource("1_k30mq"), ExtResource("2_4pb8p")])
+Points = 8
+Name = "dinosaur nuggets"

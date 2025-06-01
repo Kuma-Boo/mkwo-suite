@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://cgiwext114rnb"]
+
+[ext_resource type="Texture2D" path="res://racer/lakitu.png" id="1_u61pm"]
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="2_fvltg"]
+
+[resource]
+script = ExtResource("2_fvltg")
+characterSprite = ExtResource("1_u61pm")
+Name = "lakitu"

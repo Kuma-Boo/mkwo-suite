@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=6 format=3 uid="uid://8l30ool6j24d"]
+
+[ext_resource type="Resource" uid="uid://bsxho037b62y8" path="res://resource/character/npc/dolphin.tres" id="1_yvy2c"]
+[ext_resource type="Resource" uid="uid://ds7g4tkohyarw" path="res://resource/character/npc/fishbone.tres" id="2_xmioc"]
+[ext_resource type="Resource" uid="uid://dbgpx1h7bonml" path="res://resource/character/npc/cheep cheep.tres" id="3_k3s62"]
+[ext_resource type="Resource" uid="uid://c1g6xabhal8o5" path="res://resource/character/npc/penguin.tres" id="4_wd2ih"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="5_jsumu"]
+
+[resource]
+script = ExtResource("5_jsumu")
+characters = Array[Resource]([ExtResource("3_k3s62"), ExtResource("2_xmioc"), ExtResource("1_yvy2c"), ExtResource("4_wd2ih")])
+Points = 15
+Name = "underwater crew"

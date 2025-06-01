@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://ddkqby7lu5l5n"]
+
+[ext_resource type="Texture2D" path="res://racer/daisy.png" id="1_kwmpv"]
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="2_mem0u"]
+
+[resource]
+script = ExtResource("2_mem0u")
+characterSprite = ExtResource("1_kwmpv")
+Name = "daisy"

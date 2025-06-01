@@ -1,0 +1,274 @@
+[gd_scene load_steps=50 format=3 uid="uid://djqaotuxnh2ux"]
+
+[ext_resource type="Script" uid="uid://debyvyvbc6j7k" path="res://script/yahtzee/YahtzeeManager.cs" id="1_2sdup"]
+[ext_resource type="Texture2D" uid="uid://b12o5qwbdv67r" path="res://yahtzee logo.png" id="1_nwxht"]
+[ext_resource type="PackedScene" uid="uid://bw6l4j7qmrx2u" path="res://scene/Input.tscn" id="2_h478q"]
+[ext_resource type="Resource" uid="uid://ct1kd0dm65h17" path="res://resource/character/baby daisy.tres" id="2_s7avg"]
+[ext_resource type="LabelSettings" uid="uid://padsg8aq6wpv" path="res://interface/font settings/notice font settings.tres" id="3_6hmc5"]
+[ext_resource type="Resource" uid="uid://dk6i3oa2nqmxb" path="res://resource/character/baby luigi.tres" id="3_q8fp6"]
+[ext_resource type="Resource" uid="uid://mfmed26f4lh2" path="res://resource/character/baby mario.tres" id="4_0qq5w"]
+[ext_resource type="LabelSettings" uid="uid://c7nfjscq85yym" path="res://interface/font settings/point font settings.tres" id="4_01y4h"]
+[ext_resource type="Resource" uid="uid://bpmva0t5jsy" path="res://resource/character/baby peach.tres" id="5_mgnd3"]
+[ext_resource type="Resource" uid="uid://dew3ysaqhsn5t" path="res://resource/character/baby rosalina.tres" id="6_apiyf"]
+[ext_resource type="Resource" uid="uid://co8taoroxhbcn" path="res://resource/character/birdo.tres" id="7_678gq"]
+[ext_resource type="LabelSettings" uid="uid://d1cq4i4p01oih" path="res://interface/font settings/final score font settings.tres" id="7_qbldt"]
+[ext_resource type="StyleBox" uid="uid://narig0pfr63y" path="res://interface/final point box normal style.tres" id="8_17ddm"]
+[ext_resource type="StyleBox" uid="uid://bvu5j44aaewww" path="res://interface/point box normal style.tres" id="8_c7bo2"]
+[ext_resource type="Resource" uid="uid://c1y2x7uc25ijf" path="res://resource/character/bowser jr.tres" id="8_dfd4f"]
+[ext_resource type="Resource" uid="uid://b46uswr6gk67x" path="res://resource/character/bowser.tres" id="9_cibdg"]
+[ext_resource type="Resource" uid="uid://ddkqby7lu5l5n" path="res://resource/character/daisy.tres" id="10_pkg3x"]
+[ext_resource type="Resource" uid="uid://cq5iixvgmfg5w" path="res://resource/character/donkey kong.tres" id="11_xok3g"]
+[ext_resource type="Resource" uid="uid://mb8xo4uxyess" path="res://resource/character/king boo.tres" id="12_oe42e"]
+[ext_resource type="Resource" uid="uid://byuugdjoigje1" path="res://resource/character/koopa troopa.tres" id="13_2beiy"]
+[ext_resource type="Resource" uid="uid://cgiwext114rnb" path="res://resource/character/lakitu.tres" id="14_vmgxf"]
+[ext_resource type="Resource" uid="uid://babyp00m116ts" path="res://resource/character/luigi.tres" id="15_m72rj"]
+[ext_resource type="Resource" uid="uid://dq7jd8b658tbo" path="res://resource/character/mario.tres" id="16_pnwms"]
+[ext_resource type="Resource" uid="uid://ccbt67oqoxmsd" path="res://resource/character/pauline.tres" id="17_palaq"]
+[ext_resource type="Resource" uid="uid://cfuve434xj87j" path="res://resource/character/peach.tres" id="18_fh4k1"]
+[ext_resource type="Resource" uid="uid://dlbubfq21g3vk" path="res://resource/character/rosalina.tres" id="19_ej8vl"]
+[ext_resource type="Resource" uid="uid://bnw62rv5i56mf" path="res://resource/character/shy guy.tres" id="20_enb0c"]
+[ext_resource type="Resource" uid="uid://c2osf47vy3hey" path="res://resource/character/toad.tres" id="21_vnf7d"]
+[ext_resource type="Resource" uid="uid://c7yabppkaefip" path="res://resource/character/toadette.tres" id="22_sb8rt"]
+[ext_resource type="Resource" uid="uid://da6dwajfic07r" path="res://resource/character/waluigi.tres" id="23_m81uq"]
+[ext_resource type="Resource" uid="uid://dl18cnl4hik8s" path="res://resource/character/wario.tres" id="24_dtmvd"]
+[ext_resource type="Resource" uid="uid://wvs7dtuu73ps" path="res://resource/character/yoshi.tres" id="25_k6ef6"]
+[ext_resource type="Resource" uid="uid://cwfj5if5ow7lk" path="res://resource/category/baby blast.tres" id="26_m72rj"]
+[ext_resource type="Resource" uid="uid://cx55c40452gj4" path="res://resource/category/bad guy roundup.tres" id="27_pnwms"]
+[ext_resource type="Resource" uid="uid://gr6irkvel1jm" path="res://resource/category/bowser minions.tres" id="28_palaq"]
+[ext_resource type="Resource" uid="uid://cd7ksn6v42do" path="res://resource/category/castle dwellers.tres" id="29_fh4k1"]
+[ext_resource type="Resource" uid="uid://t2jf1asa87i" path="res://resource/category/choose 3.tres" id="30_ej8vl"]
+[ext_resource type="Resource" uid="uid://crosqye8obaub" path="res://resource/category/dino nuggets.tres" id="31_enb0c"]
+[ext_resource type="Resource" uid="uid://cop1cpxbngvmg" path="res://resource/category/mario brothers.tres" id="32_vnf7d"]
+[ext_resource type="Resource" uid="uid://dfbuuuk38o0cu" path="res://resource/category/night fright.tres" id="33_sb8rt"]
+[ext_resource type="Resource" uid="uid://nrebk6asps7q" path="res://resource/category/princess sweep.tres" id="34_m81uq"]
+[ext_resource type="Resource" uid="uid://nesletie7dyw" path="res://resource/category/real animals.tres" id="35_dtmvd"]
+[ext_resource type="Resource" uid="uid://8l30ool6j24d" path="res://resource/category/underwater crew.tres" id="36_k6ef6"]
+[ext_resource type="Resource" uid="uid://bn4ebt3j5cgn" path="res://resource/category/up in the air.tres" id="37_r5etq"]
+[ext_resource type="Resource" uid="uid://bg526itjfn487" path="res://resource/category/yahtzee.tres" id="38_r5f0t"]
+[ext_resource type="LabelSettings" uid="uid://o83goive22sm" path="res://interface/font settings/total character point font settings.tres" id="42_pnwms"]
+[ext_resource type="FontFile" uid="uid://cyk6mchsi7lma" path="res://interface/font/nintendo p bold.otf" id="47_palaq"]
+[ext_resource type="StyleBox" uid="uid://b1rrms1ta83ng" path="res://interface/reset button press.tres" id="48_ej8vl"]
+[ext_resource type="StyleBox" uid="uid://y15phmy67b7g" path="res://interface/reset button normal.tres" id="48_fh4k1"]
+
+[node name="Yahtzee" type="Control" node_paths=PackedStringArray("characterInputs", "categoryInputs", "characterTotalLabel", "finalTotalLabel")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2sdup")
+characters = Array[Resource]([ExtResource("2_s7avg"), ExtResource("3_q8fp6"), ExtResource("4_0qq5w"), ExtResource("5_mgnd3"), ExtResource("6_apiyf"), ExtResource("7_678gq"), ExtResource("8_dfd4f"), ExtResource("9_cibdg"), ExtResource("10_pkg3x"), ExtResource("11_xok3g"), ExtResource("12_oe42e"), ExtResource("13_2beiy"), ExtResource("14_vmgxf"), ExtResource("15_m72rj"), ExtResource("16_pnwms"), ExtResource("17_palaq"), ExtResource("18_fh4k1"), ExtResource("19_ej8vl"), ExtResource("20_enb0c"), ExtResource("21_vnf7d"), ExtResource("22_sb8rt"), ExtResource("23_m81uq"), ExtResource("24_dtmvd"), ExtResource("25_k6ef6")])
+categories = Array[Object]([ExtResource("26_m72rj"), ExtResource("27_pnwms"), ExtResource("28_palaq"), ExtResource("29_fh4k1"), ExtResource("30_ej8vl"), ExtResource("31_enb0c"), ExtResource("32_vnf7d"), ExtResource("33_sb8rt"), ExtResource("34_m81uq"), ExtResource("35_dtmvd"), ExtResource("36_k6ef6"), ExtResource("37_r5etq"), ExtResource("38_r5f0t")])
+characterInputs = [NodePath("Characters/Input1"), NodePath("Characters/Input2"), NodePath("Characters/Input3"), NodePath("Characters/Input4"), NodePath("Characters/Input5")]
+categoryInputs = [NodePath("Categories/Input1"), NodePath("Categories/Input2"), NodePath("Categories/Input3"), NodePath("Categories/Input4"), NodePath("Categories/Input5")]
+characterTotalLabel = NodePath("Characters/CharacterTotal/Points")
+finalTotalLabel = NodePath("FinalTotal/Points")
+metadata/_edit_lock_ = true
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 1
+color = Color(0.890196, 0.890196, 0.890196, 1)
+metadata/_edit_lock_ = true
+
+[node name="Yahtzee" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1200.0
+offset_bottom = 256.0
+texture = ExtResource("1_nwxht")
+stretch_mode = 5
+
+[node name="MaxCharactersLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -520.0
+offset_top = -653.0
+offset_right = -11.0
+offset_bottom = -629.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "max 10 characters >>>"
+label_settings = ExtResource("3_6hmc5")
+vertical_alignment = 1
+uppercase = true
+
+[node name="Characters" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_top = 304.0
+offset_right = 1200.0
+offset_bottom = 952.0
+mouse_filter = 2
+theme_override_constants/separation = 8
+
+[node name="Input1" parent="Characters" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="Input2" parent="Characters" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="Input3" parent="Characters" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="Input4" parent="Characters" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="Input5" parent="Characters" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="CharacterTotal" type="Control" parent="Characters"]
+custom_minimum_size = Vector2(1200, 100)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Background" type="ColorRect" parent="Characters/CharacterTotal"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 8.0
+offset_right = 896.0
+offset_bottom = 96.0
+mouse_filter = 2
+
+[node name="Label" type="Label" parent="Characters/CharacterTotal/Background"]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_right = 344.0
+grow_vertical = 2
+text = "total (bonus at 20)"
+label_settings = ExtResource("42_pnwms")
+vertical_alignment = 1
+uppercase = true
+
+[node name="Points" type="Label" parent="Characters/CharacterTotal"]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -208.0
+offset_top = 8.0
+offset_right = -68.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_styles/normal = ExtResource("8_c7bo2")
+text = "50"
+label_settings = ExtResource("4_01y4h")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Divider" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_top = 988.0
+offset_right = -40.0
+offset_bottom = -858.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 1
+color = Color(0, 0, 0, 1)
+
+[node name="Categories" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_top = 1032.0
+offset_right = 1200.0
+offset_bottom = 1568.0
+mouse_filter = 2
+
+[node name="Input1" parent="Categories" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="Input2" parent="Categories" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="Input3" parent="Categories" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="Input4" parent="Categories" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="Input5" parent="Categories" instance=ExtResource("2_h478q")]
+layout_mode = 2
+
+[node name="FinalTotal" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = 675.0
+offset_bottom = 787.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="FinalTotalLabel" type="Label" parent="FinalTotal"]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 80.0
+offset_right = -3.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "final total"
+label_settings = ExtResource("7_qbldt")
+vertical_alignment = 1
+uppercase = true
+
+[node name="Points" type="Label" parent="FinalTotal"]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -312.0
+offset_top = 8.0
+offset_right = -96.0
+offset_bottom = -8.0
+grow_horizontal = 0
+grow_vertical = 2
+theme_override_styles/normal = ExtResource("8_17ddm")
+text = "50"
+label_settings = ExtResource("7_qbldt")
+horizontal_alignment = 2
+vertical_alignment = 1
+
+[node name="ResetButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -152.0
+offset_top = -122.0
+offset_right = 155.0
+offset_bottom = -58.0
+grow_horizontal = 2
+grow_vertical = 0
+focus_mode = 0
+theme_override_colors/font_hover_color = Color(1, 1, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.58, 0.457813, 0.1218, 1)
+theme_override_fonts/font = ExtResource("47_palaq")
+theme_override_font_sizes/font_size = 32
+theme_override_styles/hover = ExtResource("48_ej8vl")
+theme_override_styles/pressed = ExtResource("48_ej8vl")
+theme_override_styles/normal = ExtResource("48_fh4k1")
+text = "RESET"
+
+[connection signal="pressed" from="ResetButton" to="." method="Reset"]

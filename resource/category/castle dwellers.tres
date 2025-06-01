@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=6 format=3 uid="uid://cd7ksn6v42do"]
+
+[ext_resource type="Resource" uid="uid://cfuve434xj87j" path="res://resource/character/peach.tres" id="1_x5cpr"]
+[ext_resource type="Resource" uid="uid://bpmva0t5jsy" path="res://resource/character/baby peach.tres" id="2_h1h6y"]
+[ext_resource type="Resource" uid="uid://c2osf47vy3hey" path="res://resource/character/toad.tres" id="3_8vjig"]
+[ext_resource type="Resource" uid="uid://c7yabppkaefip" path="res://resource/character/toadette.tres" id="4_2ggg1"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="5_3mqlp"]
+
+[resource]
+script = ExtResource("5_3mqlp")
+characters = Array[Resource]([ExtResource("1_x5cpr"), ExtResource("2_h1h6y"), ExtResource("3_8vjig"), ExtResource("4_2ggg1")])
+Points = 10
+Name = "castle dwellers"

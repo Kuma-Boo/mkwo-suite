@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=6 format=3 uid="uid://nrebk6asps7q"]
+
+[ext_resource type="Resource" uid="uid://cfuve434xj87j" path="res://resource/character/peach.tres" id="1_gwwnb"]
+[ext_resource type="Resource" uid="uid://ddkqby7lu5l5n" path="res://resource/character/daisy.tres" id="2_acdn3"]
+[ext_resource type="Resource" uid="uid://dlbubfq21g3vk" path="res://resource/character/rosalina.tres" id="3_gwwnb"]
+[ext_resource type="Resource" uid="uid://ccbt67oqoxmsd" path="res://resource/character/pauline.tres" id="4_acdn3"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="5_nbfke"]
+
+[resource]
+script = ExtResource("5_nbfke")
+characters = Array[Resource]([ExtResource("1_gwwnb"), ExtResource("2_acdn3"), ExtResource("3_gwwnb"), ExtResource("4_acdn3")])
+Points = 10
+Name = "princess sweep"

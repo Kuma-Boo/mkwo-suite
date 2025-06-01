@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=6 format=3 uid="uid://bn4ebt3j5cgn"]
+
+[ext_resource type="Resource" uid="uid://cgiwext114rnb" path="res://resource/character/lakitu.tres" id="1_rke1l"]
+[ext_resource type="Resource" uid="uid://b82sib47wy62g" path="res://resource/character/npc/swoop.tres" id="2_bx1hg"]
+[ext_resource type="Resource" uid="uid://clnw0obv1eh85" path="res://resource/character/npc/parabiddybud.tres" id="3_fwwsd"]
+[ext_resource type="Resource" uid="uid://c8st0nu8optgc" path="res://resource/character/npc/peepa.tres" id="4_chnrw"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="5_7xprq"]
+
+[resource]
+script = ExtResource("5_7xprq")
+characters = Array[Resource]([ExtResource("1_rke1l"), ExtResource("2_bx1hg"), ExtResource("3_fwwsd"), ExtResource("4_chnrw")])
+Points = 15
+Name = "up in the air"

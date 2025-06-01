@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=6 format=3 uid="uid://nesletie7dyw"]
+
+[ext_resource type="Resource" uid="uid://cir5j5jnfv07y" path="res://resource/character/npc/cow.tres" id="1_wm4ib"]
+[ext_resource type="Resource" uid="uid://beoi137n7aad3" path="res://resource/character/npc/monty mole.tres" id="2_4s30a"]
+[ext_resource type="Resource" uid="uid://crkypd2orkwko" path="res://resource/character/npc/sidestepper.tres" id="4_qmy75"]
+[ext_resource type="Resource" uid="uid://c1g6xabhal8o5" path="res://resource/character/npc/penguin.tres" id="4_wm4ib"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="5_5fpuv"]
+
+[resource]
+script = ExtResource("5_5fpuv")
+characters = Array[Resource]([ExtResource("1_wm4ib"), ExtResource("2_4s30a"), ExtResource("4_wm4ib"), ExtResource("4_qmy75")])
+Points = 15
+Name = "non-fictional"

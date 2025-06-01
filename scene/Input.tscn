@@ -1,0 +1,148 @@
+[gd_scene load_steps=9 format=3 uid="uid://bw6l4j7qmrx2u"]
+
+[ext_resource type="Script" uid="uid://b7mjjsgb6tn30" path="res://script/yahtzee/YahtzeeInput.cs" id="1_ixl53"]
+[ext_resource type="LabelSettings" uid="uid://b08isqg07pwps" path="res://interface/font settings/name font settings.tres" id="2_e4hy0"]
+[ext_resource type="LabelSettings" uid="uid://bbvpqbs6lorir" path="res://interface/font settings/description font settings.tres" id="3_o8map"]
+[ext_resource type="Texture2D" uid="uid://dm8k5hvb5yq57" path="res://racer/mario.png" id="4_vigvi"]
+[ext_resource type="FontFile" uid="uid://cyk6mchsi7lma" path="res://interface/font/nintendo p bold.otf" id="5_06nqg"]
+[ext_resource type="StyleBox" uid="uid://ty87meupxq5s" path="res://interface/point box interact style.tres" id="6_3baon"]
+[ext_resource type="StyleBox" uid="uid://cgvalruusyas" path="res://interface/point box disabled style.tres" id="7_hcms3"]
+[ext_resource type="StyleBox" uid="uid://bvu5j44aaewww" path="res://interface/point box normal style.tres" id="8_2xgp3"]
+
+[node name="Input" type="Control" node_paths=PackedStringArray("nameLabel", "characterSprite", "characterShadowSprite", "pointEdit", "categoryPointLabel", "categoryDescriptionLabel")]
+custom_minimum_size = Vector2(1200, 100)
+layout_mode = 3
+anchors_preset = 0
+mouse_filter = 2
+script = ExtResource("1_ixl53")
+nameLabel = NodePath("Background/Name")
+characterSprite = NodePath("Background/CharacterSprite")
+characterShadowSprite = NodePath("Background/CharacterSprite/Shadow")
+pointEdit = NodePath("Points/PointEdit")
+categoryPointLabel = NodePath("Background/PointLabel")
+categoryDescriptionLabel = NodePath("Background/Description")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 8.0
+offset_right = 896.0
+offset_bottom = 96.0
+mouse_filter = 2
+
+[node name="Name" type="Label" parent="Background"]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_right = 536.0
+grow_vertical = 2
+text = "mario"
+label_settings = ExtResource("2_e4hy0")
+vertical_alignment = 1
+text_overrun_behavior = 3
+uppercase = true
+
+[node name="Description" type="Label" parent="Background"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -320.0
+offset_right = -40.0
+grow_vertical = 2
+text = "mario, luigi, peach, daisy"
+label_settings = ExtResource("3_o8map")
+horizontal_alignment = 2
+vertical_alignment = 1
+autowrap_mode = 3
+uppercase = true
+
+[node name="PointLabel" type="Label" parent="Background"]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_left = 40.0
+offset_right = 416.0
+offset_bottom = -56.0
+grow_vertical = 2
+text = "(o points)"
+label_settings = ExtResource("3_o8map")
+vertical_alignment = 1
+autowrap_mode = 3
+uppercase = true
+
+[node name="CharacterSprite" type="TextureRect" parent="Background"]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -128.0
+offset_right = -40.0
+grow_horizontal = 0
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("4_vigvi")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Shadow" type="TextureRect" parent="Background/CharacterSprite"]
+modulate = Color(0, 0, 0, 0.392157)
+show_behind_parent = true
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -88.0
+offset_bottom = 8.0
+grow_horizontal = 0
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("4_vigvi")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Points" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -176.0
+offset_top = 8.0
+offset_right = -68.0
+grow_horizontal = 0
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="PointEdit" type="LineEdit" parent="Points"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/caret_color = Color(0, 0, 0, 1)
+theme_override_colors/font_placeholder_color = Color(0, 0, 0, 1)
+theme_override_colors/font_selected_color = Color(0.392157, 0.392157, 0.392157, 1)
+theme_override_colors/font_uneditable_color = Color(0, 0, 0, 0.588235)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/minimum_character_width = 0
+theme_override_fonts/font = ExtResource("5_06nqg")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/focus = ExtResource("6_3baon")
+theme_override_styles/read_only = ExtResource("7_hcms3")
+theme_override_styles/normal = ExtResource("8_2xgp3")
+placeholder_text = "-"
+alignment = 1
+max_length = 2
+context_menu_enabled = false
+emoji_menu_enabled = false
+virtual_keyboard_type = 2
+shortcut_keys_enabled = false
+middle_mouse_paste_enabled = false
+select_all_on_focus = true
+caret_blink = true

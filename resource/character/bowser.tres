@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://b46uswr6gk67x"]
+
+[ext_resource type="Texture2D" path="res://racer/bowser.png" id="1_vlla1"]
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="2_kxo6e"]
+
+[resource]
+script = ExtResource("2_kxo6e")
+characterSprite = ExtResource("1_vlla1")
+Name = "bowser"

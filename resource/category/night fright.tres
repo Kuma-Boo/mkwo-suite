@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=6 format=3 uid="uid://dfbuuuk38o0cu"]
+
+[ext_resource type="Resource" uid="uid://mb8xo4uxyess" path="res://resource/character/king boo.tres" id="1_ugu8i"]
+[ext_resource type="Resource" uid="uid://bdblms707i6ud" path="res://resource/character/npc/dry bones.tres" id="2_ugu8i"]
+[ext_resource type="Resource" uid="uid://ds7g4tkohyarw" path="res://resource/character/npc/fishbone.tres" id="3_js5kg"]
+[ext_resource type="Resource" uid="uid://c8st0nu8optgc" path="res://resource/character/npc/peepa.tres" id="4_uj0bi"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="5_aferx"]
+
+[resource]
+script = ExtResource("5_aferx")
+characters = Array[Resource]([ExtResource("1_ugu8i"), ExtResource("2_ugu8i"), ExtResource("3_js5kg"), ExtResource("4_uj0bi")])
+Points = 10
+Name = "night fright"

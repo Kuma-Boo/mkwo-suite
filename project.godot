@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="MKWO Suite"
+run/main_scene="uid://djqaotuxnh2ux"
+config/features=PackedStringArray("4.4", "C#", "Forward Plus")
+config/icon="uid://dm8k5hvb5yq57"
+
+[display]
+
+window/size/viewport_width=1200
+window/size/viewport_height=1850
+window/size/window_width_override=600
+window/size/window_height_override=925
+window/stretch/mode="canvas_items"
+
+[dotnet]
+
+project/assembly_name="MKWO Suite"

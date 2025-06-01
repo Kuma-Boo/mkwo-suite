@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bpmva0t5jsy"]
+
+[ext_resource type="Texture2D" path="res://racer/baby peach.png" id="1_etm5u"]
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="2_x48vi"]
+
+[resource]
+script = ExtResource("2_x48vi")
+characterSprite = ExtResource("1_etm5u")
+Name = "baby peach"

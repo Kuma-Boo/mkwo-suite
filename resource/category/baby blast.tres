@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=7 format=3 uid="uid://cwfj5if5ow7lk"]
+
+[ext_resource type="Resource" uid="uid://mfmed26f4lh2" path="res://resource/character/baby mario.tres" id="1_xoely"]
+[ext_resource type="Resource" uid="uid://dk6i3oa2nqmxb" path="res://resource/character/baby luigi.tres" id="2_lxihd"]
+[ext_resource type="Resource" uid="uid://bpmva0t5jsy" path="res://resource/character/baby peach.tres" id="3_s8wds"]
+[ext_resource type="Resource" uid="uid://ct1kd0dm65h17" path="res://resource/character/baby daisy.tres" id="4_po4nd"]
+[ext_resource type="Resource" uid="uid://dew3ysaqhsn5t" path="res://resource/character/baby rosalina.tres" id="5_avn8r"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="5_po4nd"]
+
+[resource]
+script = ExtResource("5_po4nd")
+characters = Array[Resource]([ExtResource("1_xoely"), ExtResource("2_lxihd"), ExtResource("3_s8wds"), ExtResource("4_po4nd"), ExtResource("5_avn8r")])
+Points = 15
+Name = "illegal drivers"

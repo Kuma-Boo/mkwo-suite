@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://padsg8aq6wpv"]
+
+[ext_resource type="FontFile" uid="uid://cyk6mchsi7lma" path="res://interface/font/nintendo p bold.otf" id="1_qtqea"]
+
+[resource]
+font = ExtResource("1_qtqea")
+font_size = 20
+font_color = Color(0.266667, 0.266667, 0.266667, 1)

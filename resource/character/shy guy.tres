@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://bnw62rv5i56mf"]
+
+[ext_resource type="Texture2D" path="res://racer/shy guy.png" id="1_mh2md"]
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="2_na42l"]
+
+[resource]
+script = ExtResource("2_na42l")
+characterSprite = ExtResource("1_mh2md")
+Name = "shy guy"

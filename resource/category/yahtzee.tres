@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://bg526itjfn487"]
+
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="1_4p5ma"]
+
+[resource]
+script = ExtResource("1_4p5ma")
+characters = null
+Points = 50
+Name = "yahtzee (10 of a kind)"

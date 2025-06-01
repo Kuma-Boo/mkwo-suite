@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://d1cq4i4p01oih"]
+
+[ext_resource type="FontFile" uid="uid://cyk6mchsi7lma" path="res://interface/font/nintendo p bold.otf" id="1_yhjhc"]
+
+[resource]
+font = ExtResource("1_yhjhc")
+font_size = 60
+font_color = Color(0, 0, 0, 1)

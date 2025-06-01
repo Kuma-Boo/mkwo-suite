@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="YahtzeeCharacter" load_steps=2 format=3 uid="uid://ds7g4tkohyarw"]
+
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="1_u52ry"]
+
+[resource]
+script = ExtResource("1_u52ry")
+Name = "fishbone"

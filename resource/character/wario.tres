@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://dl18cnl4hik8s"]
+
+[ext_resource type="Texture2D" path="res://racer/wario.png" id="1_hwtk0"]
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="2_yyowv"]
+
+[resource]
+script = ExtResource("2_yyowv")
+characterSprite = ExtResource("1_hwtk0")
+Name = "wario"
