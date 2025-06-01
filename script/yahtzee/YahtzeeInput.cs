@@ -33,6 +33,7 @@ public partial class YahtzeeInput : Control
 		nameLabel.Text = resource.Name;
 		characterSprite.Visible = isCharacter;
 		pointEdit.Text = string.Empty;
+		Points = 0;
 		categoryPointLabel.Visible = !isCharacter;
 		categoryDescriptionLabel.Visible = !isCharacter;
 
