@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://debyvyvbc6j7k" path="res://script/yahtzee/YahtzeeManager.cs" id="1_2sdup"]
 [ext_resource type="Texture2D" uid="uid://b12o5qwbdv67r" path="res://yahtzee logo.png" id="1_nwxht"]
-[ext_resource type="PackedScene" uid="uid://bw6l4j7qmrx2u" path="res://scene/Input.tscn" id="2_h478q"]
+[ext_resource type="PackedScene" uid="uid://bw6l4j7qmrx2u" path="res://scene/component/YahtzeeInput.tscn" id="2_h478q"]
 [ext_resource type="Resource" uid="uid://ct1kd0dm65h17" path="res://resource/character/baby daisy.tres" id="2_s7avg"]
 [ext_resource type="LabelSettings" uid="uid://padsg8aq6wpv" path="res://interface/font settings/notice font settings.tres" id="3_6hmc5"]
 [ext_resource type="Resource" uid="uid://dk6i3oa2nqmxb" path="res://resource/character/baby luigi.tres" id="3_q8fp6"]

@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://mb8xo4uxyess"]
 
-[ext_resource type="Texture2D" path="res://racer/king boo.png" id="1_xg2ef"]
-[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="2_dhhm7"]
+[ext_resource type="Texture2D" uid="uid://mjcjbk5105cr" path="res://racer/king boo.png" id="1_xg2ef"]
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_dhhm7"]
 
 [resource]
 script = ExtResource("2_dhhm7")

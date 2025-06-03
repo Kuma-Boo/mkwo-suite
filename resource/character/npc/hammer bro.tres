@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="YahtzeeCharacter" load_steps=2 format=3 uid="uid://c4lydwaj7ws8r"]
 
-[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="1_1xgim"]
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="1_1xgim"]
 
 [resource]
 script = ExtResource("1_1xgim")

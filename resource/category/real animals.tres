@@ -4,7 +4,7 @@
 [ext_resource type="Resource" uid="uid://beoi137n7aad3" path="res://resource/character/npc/monty mole.tres" id="2_4s30a"]
 [ext_resource type="Resource" uid="uid://crkypd2orkwko" path="res://resource/character/npc/sidestepper.tres" id="4_qmy75"]
 [ext_resource type="Resource" uid="uid://c1g6xabhal8o5" path="res://resource/character/npc/penguin.tres" id="4_wm4ib"]
-[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="5_5fpuv"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/resources/YahtzeeCategoryData.cs" id="5_5fpuv"]
 
 [resource]
 script = ExtResource("5_5fpuv")

@@ -1,4 +1,5 @@
 using Godot;
+using MKWO.Resources;
 
 namespace MKWO.Yahtzee;
 
@@ -7,7 +8,7 @@ public partial class YahtzeeInput : Control
 {
 	[Signal] public delegate void ValueUpdatedEventHandler();
 
-	[Export] private YahtzeeResource resource;
+	[Export] private MKWOResource resource;
 	[Export] private Label nameLabel;
 	[Export] private TextureRect characterSprite;
 	[Export] private TextureRect characterShadowSprite;
@@ -24,11 +25,11 @@ public partial class YahtzeeInput : Control
 		pointEdit.FocusExited += ValueChanged;
 	}
 
-	public void SetResource(YahtzeeResource newResource)
+	public void SetResource(MKWOResource newResource)
 	{
 		resource = newResource;
 
-		isCharacter = resource is YahtzeeCharacter;
+		isCharacter = resource is CharacterData;
 
 		nameLabel.Text = resource.Name;
 		characterSprite.Visible = isCharacter;
@@ -39,17 +40,17 @@ public partial class YahtzeeInput : Control
 
 		if (isCharacter)
 		{
-			characterSprite.Texture = (resource as YahtzeeCharacter).characterSprite;
+			characterSprite.Texture = (resource as CharacterData).characterSprite;
 			characterShadowSprite.Texture = characterSprite.Texture;
 			return;
 		}
 
-		YahtzeeCategory category = resource as YahtzeeCategory;
+		YahtzeeCategoryData category = resource as YahtzeeCategoryData;
 		categoryPointLabel.Text = category.Points != 0 ? $"({category.Points} points)" : "(??? points)";
 
 		// Construct the description string
 		string categoryDescription = string.Empty;
-		foreach (YahtzeeCharacter character in category.characters)
+		foreach (CharacterData character in category.characters)
 			categoryDescription += ", " + character.Name;
 
 		if (!string.IsNullOrEmpty(categoryDescription))

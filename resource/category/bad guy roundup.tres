@@ -4,7 +4,7 @@
 [ext_resource type="Resource" uid="uid://bnw62rv5i56mf" path="res://resource/character/shy guy.tres" id="2_up6li"]
 [ext_resource type="Resource" uid="uid://c1y2x7uc25ijf" path="res://resource/character/bowser jr.tres" id="3_eeoxb"]
 [ext_resource type="Resource" uid="uid://mb8xo4uxyess" path="res://resource/character/king boo.tres" id="4_cy23a"]
-[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/yahtzee/YahtzeeCategory.cs" id="5_b237g"]
+[ext_resource type="Script" uid="uid://ch4ky4vo4a7rw" path="res://script/resources/YahtzeeCategoryData.cs" id="5_b237g"]
 
 [resource]
 script = ExtResource("5_b237g")

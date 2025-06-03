@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://cq5iixvgmfg5w"]
 
-[ext_resource type="Texture2D" path="res://racer/donkey kong.png" id="1_emtq2"]
-[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/yahtzee/YahtzeeCharacter.cs" id="2_c3blb"]
+[ext_resource type="Texture2D" uid="uid://cs7voqvqy1amx" path="res://racer/donkey kong.png" id="1_emtq2"]
+[ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_c3blb"]
 
 [resource]
 script = ExtResource("2_c3blb")

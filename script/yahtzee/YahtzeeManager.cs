@@ -1,12 +1,13 @@
 using Godot;
 using Godot.Collections;
+using MKWO.Resources;
 
 namespace MKWO.Yahtzee;
 
 public partial class YahtzeeManager : Node
 {
-	[Export] private YahtzeeCharacter[] characters;
-	[Export] private YahtzeeCategory[] categories;
+	[Export] private CharacterData[] characters;
+	[Export] private YahtzeeCategoryData[] categories;
 
 	[Export] private YahtzeeInput[] characterInputs;
 	[Export] private YahtzeeInput[] categoryInputs;
@@ -31,8 +32,8 @@ public partial class YahtzeeManager : Node
 	public void Reset()
 	{
 		// BE SURE THAT THERE ARE ENOUGH CHARACTERS/CATEGORIES. OTHERWISE, THIS WILL BREAK
-		Array<YahtzeeCharacter> remainingCharacters = [.. characters];
-		Array<YahtzeeCategory> remainingCategories = [.. categories];
+		Array<CharacterData> remainingCharacters = [.. characters];
+		Array<YahtzeeCategoryData> remainingCategories = [.. categories];
 
 		int index;
 		RandomNumberGenerator randomNumberGenerator = new();
