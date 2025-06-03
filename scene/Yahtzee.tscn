@@ -1,7 +1,6 @@
-[gd_scene load_steps=50 format=3 uid="uid://djqaotuxnh2ux"]
+[gd_scene load_steps=51 format=3 uid="uid://djqaotuxnh2ux"]
 
 [ext_resource type="Script" uid="uid://debyvyvbc6j7k" path="res://script/yahtzee/YahtzeeManager.cs" id="1_2sdup"]
-[ext_resource type="Texture2D" uid="uid://b12o5qwbdv67r" path="res://yahtzee logo.png" id="1_nwxht"]
 [ext_resource type="PackedScene" uid="uid://bw6l4j7qmrx2u" path="res://scene/component/YahtzeeInput.tscn" id="2_h478q"]
 [ext_resource type="Resource" uid="uid://ct1kd0dm65h17" path="res://resource/character/baby daisy.tres" id="2_s7avg"]
 [ext_resource type="LabelSettings" uid="uid://padsg8aq6wpv" path="res://interface/font settings/notice font settings.tres" id="3_6hmc5"]
@@ -45,6 +44,8 @@
 [ext_resource type="Resource" uid="uid://8l30ool6j24d" path="res://resource/category/underwater crew.tres" id="36_k6ef6"]
 [ext_resource type="Resource" uid="uid://bn4ebt3j5cgn" path="res://resource/category/up in the air.tres" id="37_r5etq"]
 [ext_resource type="Resource" uid="uid://bg526itjfn487" path="res://resource/category/yahtzee.tres" id="38_r5f0t"]
+[ext_resource type="LabelSettings" uid="uid://du1t4auvwds27" path="res://interface/font settings/title.tres" id="39_enb0c"]
+[ext_resource type="LabelSettings" uid="uid://bjltde8qajq7o" path="res://interface/font settings/subtitle.tres" id="40_enb0c"]
 [ext_resource type="LabelSettings" uid="uid://o83goive22sm" path="res://interface/font settings/total character point font settings.tres" id="42_pnwms"]
 [ext_resource type="FontFile" uid="uid://cyk6mchsi7lma" path="res://interface/font/nintendo p bold.otf" id="47_palaq"]
 [ext_resource type="StyleBox" uid="uid://b1rrms1ta83ng" path="res://interface/reset button press.tres" id="48_ej8vl"]
@@ -77,12 +78,38 @@ focus_mode = 1
 color = Color(0.890196, 0.890196, 0.890196, 1)
 metadata/_edit_lock_ = true
 
-[node name="Yahtzee" type="TextureRect" parent="."]
+[node name="Title" type="Label" parent="."]
+clip_children = 2
 layout_mode = 0
+offset_top = 48.0
 offset_right = 1200.0
-offset_bottom = 256.0
-texture = ExtResource("1_nwxht")
-stretch_mode = 5
+offset_bottom = 145.0
+text = "MKWO YAHTZEE"
+label_settings = ExtResource("39_enb0c")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Color" type="ColorRect" parent="Title"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 48.0
+grow_horizontal = 2
+focus_mode = 1
+color = Color(0.439216, 0.439216, 0.439216, 1)
+
+[node name="Subtitle" type="Label" parent="."]
+clip_children = 2
+layout_mode = 0
+offset_top = 144.0
+offset_right = 1200.0
+offset_bottom = 208.0
+text = "score sheet"
+label_settings = ExtResource("40_enb0c")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
 
 [node name="MaxCharactersLabel" type="Label" parent="."]
 layout_mode = 1

@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://bjltde8qajq7o"]
+
+[ext_resource type="FontFile" uid="uid://cewm11njqvtl3" path="res://interface/font/nintendo p light.otf" id="1_stc7p"]
+
+[resource]
+font = ExtResource("1_stc7p")
+font_size = 60
+font_color = Color(0.0784314, 0.0784314, 0.0784314, 1)

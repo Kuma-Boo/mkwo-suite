@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://dew3ysaqhsn5t"]
 
-[ext_resource type="Texture2D" uid="uid://c7w652s3ih3fa" path="res://racer/baby rosalina.png" id="1_qs33c"]
+[ext_resource type="Texture2D" uid="uid://c7w652s3ih3fa" path="res://sprite/racer/icon/baby rosalina.png" id="1_qs33c"]
 [ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_nkx4f"]
 
 [resource]

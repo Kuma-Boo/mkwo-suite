@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://co8taoroxhbcn"]
 
-[ext_resource type="Texture2D" uid="uid://b51g1gj0lsh7e" path="res://racer/birdo.png" id="1_f2og5"]
+[ext_resource type="Texture2D" uid="uid://b51g1gj0lsh7e" path="res://sprite/racer/icon/birdo.png" id="1_f2og5"]
 [ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_ctv1t"]
 
 [resource]

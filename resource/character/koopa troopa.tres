@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://byuugdjoigje1"]
 
-[ext_resource type="Texture2D" uid="uid://5c7xba01po7j" path="res://racer/koopa troopa.png" id="1_6t3cx"]
+[ext_resource type="Texture2D" uid="uid://5c7xba01po7j" path="res://sprite/racer/icon/koopa troopa.png" id="1_6t3cx"]
 [ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_fx8g7"]
 
 [resource]

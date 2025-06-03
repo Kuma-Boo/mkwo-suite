@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://dq7jd8b658tbo"]
 
-[ext_resource type="Texture2D" uid="uid://dm8k5hvb5yq57" path="res://racer/mario.png" id="1_adoyq"]
+[ext_resource type="Texture2D" uid="uid://dm8k5hvb5yq57" path="res://sprite/racer/icon/mario.png" id="1_adoyq"]
 [ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_lenid"]
 
 [resource]

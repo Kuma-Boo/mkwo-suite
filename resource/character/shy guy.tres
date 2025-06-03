@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://bnw62rv5i56mf"]
 
-[ext_resource type="Texture2D" uid="uid://deugw7lsl0q4e" path="res://racer/shy guy.png" id="1_mh2md"]
+[ext_resource type="Texture2D" uid="uid://deugw7lsl0q4e" path="res://sprite/racer/icon/shy guy.png" id="1_mh2md"]
 [ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_na42l"]
 
 [resource]

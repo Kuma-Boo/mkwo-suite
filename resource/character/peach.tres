@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://cfuve434xj87j"]
 
-[ext_resource type="Texture2D" uid="uid://wmic1ko3c3k7" path="res://racer/peach.png" id="1_6jw5u"]
+[ext_resource type="Texture2D" uid="uid://wmic1ko3c3k7" path="res://sprite/racer/icon/peach.png" id="1_6jw5u"]
 [ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_12pac"]
 
 [resource]

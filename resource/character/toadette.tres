@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://c7yabppkaefip"]
 
-[ext_resource type="Texture2D" uid="uid://c25qx2sesi10y" path="res://racer/toadette.png" id="1_hh2we"]
+[ext_resource type="Texture2D" uid="uid://c25qx2sesi10y" path="res://sprite/racer/icon/toadette.png" id="1_hh2we"]
 [ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_5af7t"]
 
 [resource]

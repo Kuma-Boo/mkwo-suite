@@ -1,0 +1,7 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://djywmgu721g32"]
+
+[ext_resource type="Script" uid="uid://c3ybow4lroatq" path="res://script/resources/VehicleData.cs" id="1_lcaq5"]
+
+[resource]
+script = ExtResource("1_lcaq5")
+Name = ""

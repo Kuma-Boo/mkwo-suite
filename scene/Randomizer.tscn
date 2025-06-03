@@ -1,14 +1,65 @@
-[gd_scene load_steps=2 format=3 uid="uid://81inmumjey3s"]
+[gd_scene load_steps=47 format=3 uid="uid://81inmumjey3s"]
 
+[ext_resource type="Script" uid="uid://bv85psutspfxn" path="res://script/randomizer/RandomizerManager.cs" id="1_os6tn"]
 [ext_resource type="FontFile" uid="uid://cyk6mchsi7lma" path="res://interface/font/nintendo p bold.otf" id="1_tagft"]
+[ext_resource type="LabelSettings" uid="uid://du1t4auvwds27" path="res://interface/font settings/title.tres" id="2_8b8ku"]
+[ext_resource type="Resource" uid="uid://ct1kd0dm65h17" path="res://resource/character/baby daisy.tres" id="2_tr445"]
+[ext_resource type="StyleBox" uid="uid://b1rrms1ta83ng" path="res://interface/reset button press.tres" id="3_8b8ku"]
+[ext_resource type="Resource" uid="uid://dk6i3oa2nqmxb" path="res://resource/character/baby luigi.tres" id="3_be2tq"]
+[ext_resource type="StyleBox" uid="uid://dypth7u2h4dlo" path="res://interface/option button interact style.tres" id="4_5g5dn"]
+[ext_resource type="StyleBox" uid="uid://y15phmy67b7g" path="res://interface/reset button normal.tres" id="4_k74th"]
+[ext_resource type="Resource" uid="uid://mfmed26f4lh2" path="res://resource/character/baby mario.tres" id="4_ssdt3"]
+[ext_resource type="Resource" uid="uid://bpmva0t5jsy" path="res://resource/character/baby peach.tres" id="5_v735n"]
+[ext_resource type="StyleBox" uid="uid://cvuyflqo2nt4x" path="res://interface/option button normal style.tres" id="5_velbt"]
+[ext_resource type="Texture2D" uid="uid://b4uanatc1hsjb" path="res://sprite/dropdown.png" id="6_5g5dn"]
+[ext_resource type="Resource" uid="uid://dew3ysaqhsn5t" path="res://resource/character/baby rosalina.tres" id="6_0836i"]
+[ext_resource type="Resource" uid="uid://co8taoroxhbcn" path="res://resource/character/birdo.tres" id="7_7upao"]
+[ext_resource type="Resource" uid="uid://c1y2x7uc25ijf" path="res://resource/character/bowser jr.tres" id="8_m7reb"]
+[ext_resource type="Resource" uid="uid://b46uswr6gk67x" path="res://resource/character/bowser.tres" id="9_ypehs"]
+[ext_resource type="Resource" uid="uid://ddkqby7lu5l5n" path="res://resource/character/daisy.tres" id="10_i1mi1"]
+[ext_resource type="Resource" uid="uid://cq5iixvgmfg5w" path="res://resource/character/donkey kong.tres" id="11_2en7f"]
+[ext_resource type="Resource" uid="uid://mb8xo4uxyess" path="res://resource/character/king boo.tres" id="12_vf67o"]
+[ext_resource type="Resource" uid="uid://byuugdjoigje1" path="res://resource/character/koopa troopa.tres" id="13_xeiaf"]
+[ext_resource type="Resource" uid="uid://cgiwext114rnb" path="res://resource/character/lakitu.tres" id="14_tn026"]
+[ext_resource type="Resource" uid="uid://babyp00m116ts" path="res://resource/character/luigi.tres" id="15_28r2u"]
+[ext_resource type="Resource" uid="uid://dq7jd8b658tbo" path="res://resource/character/mario.tres" id="16_nsn4h"]
+[ext_resource type="Resource" uid="uid://ccbt67oqoxmsd" path="res://resource/character/pauline.tres" id="17_uj61g"]
+[ext_resource type="Resource" uid="uid://cfuve434xj87j" path="res://resource/character/peach.tres" id="18_bupbo"]
+[ext_resource type="Resource" uid="uid://dlbubfq21g3vk" path="res://resource/character/rosalina.tres" id="19_7scvn"]
+[ext_resource type="Resource" uid="uid://bnw62rv5i56mf" path="res://resource/character/shy guy.tres" id="20_fp4sl"]
+[ext_resource type="Resource" uid="uid://c2osf47vy3hey" path="res://resource/character/toad.tres" id="21_ryuiq"]
+[ext_resource type="Resource" uid="uid://c7yabppkaefip" path="res://resource/character/toadette.tres" id="22_gbde0"]
+[ext_resource type="Resource" uid="uid://da6dwajfic07r" path="res://resource/character/waluigi.tres" id="23_rkmg6"]
+[ext_resource type="Resource" uid="uid://dl18cnl4hik8s" path="res://resource/character/wario.tres" id="24_l3aga"]
+[ext_resource type="Resource" uid="uid://wvs7dtuu73ps" path="res://resource/character/yoshi.tres" id="25_ma6ys"]
+[ext_resource type="Resource" uid="uid://dbgpx1h7bonml" path="res://resource/character/npc/cheep cheep.tres" id="26_0c8sp"]
+[ext_resource type="Resource" uid="uid://cir5j5jnfv07y" path="res://resource/character/npc/cow.tres" id="27_jvf7o"]
+[ext_resource type="Resource" uid="uid://bsxho037b62y8" path="res://resource/character/npc/dolphin.tres" id="28_pxw4r"]
+[ext_resource type="Resource" uid="uid://bdblms707i6ud" path="res://resource/character/npc/dry bones.tres" id="29_ldbpw"]
+[ext_resource type="Resource" uid="uid://ds7g4tkohyarw" path="res://resource/character/npc/fishbone.tres" id="30_0eiou"]
+[ext_resource type="Resource" uid="uid://secfet6yh2ek" path="res://resource/character/npc/goomba.tres" id="31_i7mfl"]
+[ext_resource type="Resource" uid="uid://c4lydwaj7ws8r" path="res://resource/character/npc/hammer bro.tres" id="32_7p52h"]
+[ext_resource type="Resource" uid="uid://beoi137n7aad3" path="res://resource/character/npc/monty mole.tres" id="33_ir1sc"]
+[ext_resource type="Resource" uid="uid://clnw0obv1eh85" path="res://resource/character/npc/parabiddybud.tres" id="34_1hhvc"]
+[ext_resource type="Resource" uid="uid://c8st0nu8optgc" path="res://resource/character/npc/peepa.tres" id="35_yxjct"]
+[ext_resource type="Resource" uid="uid://c1g6xabhal8o5" path="res://resource/character/npc/penguin.tres" id="36_hxop6"]
+[ext_resource type="Resource" uid="uid://crkypd2orkwko" path="res://resource/character/npc/sidestepper.tres" id="37_t4pg6"]
+[ext_resource type="Resource" uid="uid://b82sib47wy62g" path="res://resource/character/npc/swoop.tres" id="38_aucy2"]
+[ext_resource type="Resource" uid="uid://djywmgu721g32" path="res://resource/vehicle/standard kart.tres" id="39_be2tq"]
 
-[node name="Randomizer" type="Control"]
+[node name="Randomizer" type="Control" node_paths=PackedStringArray("characterRect", "vehicleRect")]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_os6tn")
+characters = Array[Resource]([ExtResource("2_tr445"), ExtResource("3_be2tq"), ExtResource("4_ssdt3"), ExtResource("5_v735n"), ExtResource("6_0836i"), ExtResource("7_7upao"), ExtResource("8_m7reb"), ExtResource("9_ypehs"), ExtResource("10_i1mi1"), ExtResource("11_2en7f"), ExtResource("12_vf67o"), ExtResource("13_xeiaf"), ExtResource("14_tn026"), ExtResource("15_28r2u"), ExtResource("16_nsn4h"), ExtResource("17_uj61g"), ExtResource("18_bupbo"), ExtResource("19_7scvn"), ExtResource("20_fp4sl"), ExtResource("21_ryuiq"), ExtResource("22_gbde0"), ExtResource("23_rkmg6"), ExtResource("24_l3aga"), ExtResource("25_ma6ys")])
+npcs = Array[Resource]([ExtResource("26_0c8sp"), ExtResource("27_jvf7o"), ExtResource("28_pxw4r"), ExtResource("29_ldbpw"), ExtResource("30_0eiou"), ExtResource("31_i7mfl"), ExtResource("32_7p52h"), ExtResource("33_ir1sc"), ExtResource("34_1hhvc"), ExtResource("35_yxjct"), ExtResource("36_hxop6"), ExtResource("37_t4pg6"), ExtResource("38_aucy2")])
+vehicles = Array[Resource]([ExtResource("39_be2tq")])
+characterRect = NodePath("Character")
+vehicleRect = NodePath("Vehicle")
 metadata/_edit_lock_ = true
 
 [node name="Background" type="ColorRect" parent="."]
@@ -22,12 +73,86 @@ focus_mode = 1
 color = Color(0.890196, 0.890196, 0.890196, 1)
 metadata/_edit_lock_ = true
 
-[node name="Button" type="Button" parent="."]
+[node name="Title" type="Label" parent="."]
+clip_children = 2
+offset_top = 48.0
+offset_right = 1200.0
+offset_bottom = 145.0
+text = "MKWO RANDOMIZER"
+label_settings = ExtResource("2_8b8ku")
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Color" type="ColorRect" parent="Title"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 48.0
+grow_horizontal = 2
+focus_mode = 1
+color = Color(0.439216, 0.439216, 0.439216, 1)
+
+[node name="Character" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 384.0
+offset_right = 960.0
+offset_bottom = 640.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Vehicle" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 576.0
+offset_right = 960.0
+offset_bottom = 832.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="CharacterMode" type="OptionButton" parent="."]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 1312.0
+offset_right = 960.0
+offset_bottom = 1408.0
+focus_mode = 0
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("1_tagft")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/hover = ExtResource("4_5g5dn")
+theme_override_styles/pressed = ExtResource("4_5g5dn")
+theme_override_styles/normal = ExtResource("5_velbt")
+theme_override_icons/arrow = ExtResource("6_5g5dn")
+expand_icon = true
+selected = 0
+fit_to_longest_item = false
+item_count = 3
+popup/item_0/text = "Main Drivers Only"
+popup/item_0/id = 0
+popup/item_1/text = "NPC Drivers Only"
+popup/item_1/id = 1
+popup/item_2/text = "All Drivers"
+popup/item_2/id = 2
+
+[node name="RandomizeButton" type="Button" parent="."]
 layout_mode = 0
 offset_left = 192.0
 offset_top = 1472.0
 offset_right = 1024.0
 offset_bottom = 1720.0
+focus_mode = 0
+theme_override_colors/font_hover_color = Color(1, 1, 0, 1)
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_pressed_color = Color(0.58, 0.457813, 0.1218, 1)
 theme_override_fonts/font = ExtResource("1_tagft")
 theme_override_font_sizes/font_size = 60
+theme_override_styles/hover = ExtResource("3_8b8ku")
+theme_override_styles/pressed = ExtResource("3_8b8ku")
+theme_override_styles/normal = ExtResource("4_k74th")
 text = "RANDOMIZE"
+
+[connection signal="item_selected" from="CharacterMode" to="." method="UpdateCharacterModeSelection"]
+[connection signal="pressed" from="RandomizeButton" to="." method="UpdateRandomCombo"]

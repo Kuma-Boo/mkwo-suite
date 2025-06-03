@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=3 format=3 uid="uid://mfmed26f4lh2"]
 
-[ext_resource type="Texture2D" uid="uid://df0peiv5q1qxo" path="res://racer/baby mario.png" id="1_smp1c"]
+[ext_resource type="Texture2D" uid="uid://df0peiv5q1qxo" path="res://sprite/racer/icon/baby mario.png" id="1_smp1c"]
 [ext_resource type="Script" uid="uid://b88mbetm0ons8" path="res://script/resources/CharacterData.cs" id="2_01ety"]
 
 [resource]

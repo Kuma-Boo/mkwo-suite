@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://b7mjjsgb6tn30" path="res://script/yahtzee/YahtzeeInput.cs" id="1_ixl53"]
 [ext_resource type="LabelSettings" uid="uid://b08isqg07pwps" path="res://interface/font settings/name font settings.tres" id="2_e4hy0"]
 [ext_resource type="LabelSettings" uid="uid://bbvpqbs6lorir" path="res://interface/font settings/description font settings.tres" id="3_o8map"]
-[ext_resource type="Texture2D" uid="uid://dm8k5hvb5yq57" path="res://racer/mario.png" id="4_vigvi"]
+[ext_resource type="Texture2D" uid="uid://dm8k5hvb5yq57" path="res://sprite/racer/icon/mario.png" id="4_vigvi"]
 [ext_resource type="FontFile" uid="uid://cyk6mchsi7lma" path="res://interface/font/nintendo p bold.otf" id="5_06nqg"]
 [ext_resource type="StyleBox" uid="uid://ty87meupxq5s" path="res://interface/point box interact style.tres" id="6_3baon"]
 [ext_resource type="StyleBox" uid="uid://cgvalruusyas" path="res://interface/point box disabled style.tres" id="7_hcms3"]
